@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BBB34F4264338380076E3F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB34F3264338380076E3F6 /* AppDelegate.swift */; };
+		3BBB34F6264338380076E3F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB34F5264338380076E3F6 /* SceneDelegate.swift */; };
+		3BBB34FB264338380076E3F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB34F9264338380076E3F6 /* Main.storyboard */; };
+		3BBB34FD2643383B0076E3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB34FC2643383B0076E3F6 /* Assets.xcassets */; };
+		3BBB35002643383B0076E3F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB34FE2643383B0076E3F6 /* LaunchScreen.storyboard */; };
+		3BBB3511264338DA0076E3F6 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB3510264338DA0076E3F6 /* Team.swift */; };
+		3BBB351326433BE30076E3F6 /* TeamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB351226433BE30076E3F6 /* TeamController.swift */; };
+		3BBB351526433CD70076E3F6 /* TeamError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB351426433CD70076E3F6 /* TeamError.swift */; };
+		3BBB3517264348620076E3F6 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB3516264348620076E3F6 /* TeamTableViewCell.swift */; };
+		3BBB35192643488A0076E3F6 /* TeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB35182643488A0076E3F6 /* TeamTableViewController.swift */; };
+		937F397A97B49A26BF919E4B /* Pods_PremierLeagueStandings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C71531C02451783F6A9B0A /* Pods_PremierLeagueStandings.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BBB351D264388890076E3F6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3BBB34F0264338380076E3F6 /* PremierLeagueStandings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PremierLeagueStandings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBB34F3264338380076E3F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BBB34F5264338380076E3F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3BBB34FA264338380076E3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BBB34FC2643383B0076E3F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BBB34FF2643383B0076E3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BBB35012643383B0076E3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BBB3510264338DA0076E3F6 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		3BBB351226433BE30076E3F6 /* TeamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamController.swift; sourceTree = "<group>"; };
+		3BBB351426433CD70076E3F6 /* TeamError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamError.swift; sourceTree = "<group>"; };
+		3BBB3516264348620076E3F6 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		3BBB35182643488A0076E3F6 /* TeamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewController.swift; sourceTree = "<group>"; };
+		474C9A1FE3F555C661371054 /* Pods-PremierLeagueStandings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PremierLeagueStandings.release.xcconfig"; path = "Target Support Files/Pods-PremierLeagueStandings/Pods-PremierLeagueStandings.release.xcconfig"; sourceTree = "<group>"; };
+		6B14B9F20B31E305445B8AD2 /* Pods-PremierLeagueStandings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PremierLeagueStandings.debug.xcconfig"; path = "Target Support Files/Pods-PremierLeagueStandings/Pods-PremierLeagueStandings.debug.xcconfig"; sourceTree = "<group>"; };
+		75C71531C02451783F6A9B0A /* Pods_PremierLeagueStandings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PremierLeagueStandings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BBB34ED264338380076E3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937F397A97B49A26BF919E4B /* Pods_PremierLeagueStandings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BBB34E7264338380076E3F6 = {
+			isa = PBXGroup;
+			children = (
+				3BBB34F2264338380076E3F6 /* PremierLeagueStandings */,
+				3BBB34F1264338380076E3F6 /* Products */,
+				E52BF0F7779574157E593E3D /* Pods */,
+				DD25B3A16038E9A1E50FA06B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BBB34F1264338380076E3F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB34F0264338380076E3F6 /* PremierLeagueStandings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BBB34F2264338380076E3F6 /* PremierLeagueStandings */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB350F2643386E0076E3F6 /* Models */,
+				3BBB350C264338600076E3F6 /* Controllers */,
+				3BBB3509264338530076E3F6 /* Views */,
+				3BBB35082643384F0076E3F6 /* Helper and Extension */,
+				3BBB3507264338480076E3F6 /* Resources */,
+			);
+			path = PremierLeagueStandings;
+			sourceTree = "<group>";
+		};
+		3BBB3507264338480076E3F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB34F3264338380076E3F6 /* AppDelegate.swift */,
+				3BBB34F5264338380076E3F6 /* SceneDelegate.swift */,
+				3BBB34FC2643383B0076E3F6 /* Assets.xcassets */,
+				3BBB35012643383B0076E3F6 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3BBB35082643384F0076E3F6 /* Helper and Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB351426433CD70076E3F6 /* TeamError.swift */,
+			);
+			path = "Helper and Extension";
+			sourceTree = "<group>";
+		};
+		3BBB3509264338530076E3F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB350B2643385A0076E3F6 /* Custom Views */,
+				3BBB350A264338550076E3F6 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BBB350A264338550076E3F6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB34F9264338380076E3F6 /* Main.storyboard */,
+				3BBB34FE2643383B0076E3F6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3BBB350B2643385A0076E3F6 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB3516264348620076E3F6 /* TeamTableViewCell.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		3BBB350C264338600076E3F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB350E2643386A0076E3F6 /* ModelControllers */,
+				3BBB350D264338630076E3F6 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3BBB350D264338630076E3F6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB35182643488A0076E3F6 /* TeamTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3BBB350E2643386A0076E3F6 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB351226433BE30076E3F6 /* TeamController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		3BBB350F2643386E0076E3F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB3510264338DA0076E3F6 /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD25B3A16038E9A1E50FA06B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75C71531C02451783F6A9B0A /* Pods_PremierLeagueStandings.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E52BF0F7779574157E593E3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B14B9F20B31E305445B8AD2 /* Pods-PremierLeagueStandings.debug.xcconfig */,
+				474C9A1FE3F555C661371054 /* Pods-PremierLeagueStandings.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BBB34EF264338380076E3F6 /* PremierLeagueStandings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBB35042643383B0076E3F6 /* Build configuration list for PBXNativeTarget "PremierLeagueStandings" */;
+			buildPhases = (
+				2790B1948D383F468467DAED /* [CP] Check Pods Manifest.lock */,
+				3BBB34EC264338380076E3F6 /* Sources */,
+				3BBB34ED264338380076E3F6 /* Frameworks */,
+				3BBB34EE264338380076E3F6 /* Resources */,
+				3BBB351D264388890076E3F6 /* Embed Frameworks */,
+				06EF85A0CEA41837E52BC43F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PremierLeagueStandings;
+			productName = PremierLeagueStandings;
+			productReference = 3BBB34F0264338380076E3F6 /* PremierLeagueStandings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BBB34E8264338380076E3F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3BBB34EF264338380076E3F6 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 3BBB34EB264338380076E3F6 /* Build configuration list for PBXProject "PremierLeagueStandings" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BBB34E7264338380076E3F6;
+			productRefGroup = 3BBB34F1264338380076E3F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BBB34EF264338380076E3F6 /* PremierLeagueStandings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BBB34EE264338380076E3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBB35002643383B0076E3F6 /* LaunchScreen.storyboard in Resources */,
+				3BBB34FD2643383B0076E3F6 /* Assets.xcassets in Resources */,
+				3BBB34FB264338380076E3F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06EF85A0CEA41837E52BC43F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PremierLeagueStandings/Pods-PremierLeagueStandings-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PremierLeagueStandings/Pods-PremierLeagueStandings-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PremierLeagueStandings/Pods-PremierLeagueStandings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2790B1948D383F468467DAED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PremierLeagueStandings-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BBB34EC264338380076E3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBB34F4264338380076E3F6 /* AppDelegate.swift in Sources */,
+				3BBB351526433CD70076E3F6 /* TeamError.swift in Sources */,
+				3BBB34F6264338380076E3F6 /* SceneDelegate.swift in Sources */,
+				3BBB351326433BE30076E3F6 /* TeamController.swift in Sources */,
+				3BBB35192643488A0076E3F6 /* TeamTableViewController.swift in Sources */,
+				3BBB3517264348620076E3F6 /* TeamTableViewCell.swift in Sources */,
+				3BBB3511264338DA0076E3F6 /* Team.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BBB34F9264338380076E3F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BBB34FA264338380076E3F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BBB34FE2643383B0076E3F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BBB34FF2643383B0076E3F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BBB35022643383B0076E3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BBB35032643383B0076E3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BBB35052643383B0076E3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B14B9F20B31E305445B8AD2 /* Pods-PremierLeagueStandings.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QEN666WPC7;
+				INFOPLIST_FILE = PremierLeagueStandings/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jameschun.PremierLeagueStandings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BBB35062643383B0076E3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 474C9A1FE3F555C661371054 /* Pods-PremierLeagueStandings.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QEN666WPC7;
+				INFOPLIST_FILE = PremierLeagueStandings/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jameschun.PremierLeagueStandings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BBB34EB264338380076E3F6 /* Build configuration list for PBXProject "PremierLeagueStandings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBB35022643383B0076E3F6 /* Debug */,
+				3BBB35032643383B0076E3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BBB35042643383B0076E3F6 /* Build configuration list for PBXNativeTarget "PremierLeagueStandings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBB35052643383B0076E3F6 /* Debug */,
+				3BBB35062643383B0076E3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BBB34E8264338380076E3F6 /* Project object */;
+}
